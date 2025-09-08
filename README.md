@@ -4,11 +4,11 @@ The system is trained and tested on the MovieLens 100K dataset and provides pers
 Additionally, a Streamlit App is included to demonstrate real-time movie recommendations interactively.
 
 Dataset
-Source: MovieLens 100K Dataset
-Files used:
-u.data → user ratings (userId, movieId, rating, timestamp)
-u.item → movie information (movieId, title, genres)
-Size: 100,000 ratings from 943 users on 1,682 movies
+
+This project uses the MovieLens 100K Dataset, which contains 100,000 movie ratings from 943 users on 1,682 movies.  
+Due to file size limitations, the dataset is not included in this repository.  
+You can download it directly from the [MovieLens official website](https://grouplens.org/datasets/movielens/100k/).
+After downloading, extract the folder "ml-100k" and place it inside the `Task4_Recommendation_System/` directory, so the structure looks like this:
 
 Steps Performed
 Load the dataset (u.data and u.item).
